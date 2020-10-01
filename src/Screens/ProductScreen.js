@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import data from '../DB/data'
+import data from '../db/data'
 
 function ProductScreen ({ match }) {
   const product = data.products.find(item => item._id === match.params.id);
