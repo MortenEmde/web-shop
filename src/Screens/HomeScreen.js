@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import data from '../data';
+import data from '../DB/data';
 
 function HomeScreen (props) {
   return (
@@ -18,7 +18,7 @@ function HomeScreen (props) {
                 </div>
                 <div className="product-brand">{product.brand}</div>
                 <div className="product-price">€{product.price}</div>
-                <div className="product-raiting">{product.raiting} Stars ({product.numReviews}) Reviews</div>
+                <div className="product-raiting">{product.rating} Stars ({product.numReviews}) Reviews</div>
               </div>
             </li>
           )

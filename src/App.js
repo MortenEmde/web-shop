@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import { Link, Route } from 'react-router-dom';
 import HomeScreen from './Screens/HomeScreen';
 import ProductScreen from './Screens/ProductScreen';
