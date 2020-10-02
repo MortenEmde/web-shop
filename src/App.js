@@ -2,6 +2,7 @@ import React from 'react';
 import { Link, Route } from 'react-router-dom';
 import HomeScreen from './screens/HomeScreen';
 import ProductScreen from './screens/ProductScreen';
+import CartScreen from './screens/CartScreen';
 
 function App() {
  
@@ -22,7 +23,7 @@ function App() {
           <Link to="/" >WebShop</Link>
         </div>
         <div className="header-links">
-          <a href="cart.html">Cart</a>
+          <a href="cart">Cart</a>
           <a href="signin.html">Sign In</a>
         </div>
       </header>
@@ -41,6 +42,7 @@ function App() {
       <main className="main">
         <div className="content">
           <Route path="/product/:id" component={ProductScreen} />
+          <Route path="/cart/:id?" component={CartScreen} />
           <Route path="/" exact={true} component={HomeScreen} />
         </div>
       </main>
