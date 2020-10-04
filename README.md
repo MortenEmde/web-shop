@@ -19,6 +19,10 @@ Runs the server on [http://localhost:3000](http://localhost:3000).<br />
 - Aside (sidebar) options need a functionality.
 - Header (login) option need a functionality.
 
+### ProductScreen: 
+- Review display with stars.
+- Leave a review functionality.
+
 ### CartScreen: 
 - Proceed to checkout button functionality.
 

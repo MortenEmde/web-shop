@@ -121,7 +121,6 @@ a:hover {
 }
 
 /* Sidebar */
-
 .brand button {
   font-size: 3rem;
   padding: 0.5rem;
@@ -144,7 +143,6 @@ a:hover {
   transform: translateX(0);
 }
 
-
 .sidebar-close-button {
   border-radius: 50%;
   border: 0.1rem #000000 solid;
@@ -159,8 +157,7 @@ a:hover {
   top: 1.5rem;
 }
 
-/* Product Details */
-
+/* Product Screen */
 .details {
   display: flex;
   justify-content: space-between;
@@ -181,6 +178,7 @@ a:hover {
 .details-info {
   flex: 1 1 30rem;
 }
+
 .details-action {
   flex: 1 1 30rem;
 }
@@ -226,8 +224,7 @@ a:hover {
   background-color: #f0c040;
 }
 
-/* Cart */
-
+/* Cart Screen */
 .cart {
   display: flex;
   flex-wrap: wrap;
@@ -274,9 +271,11 @@ a:hover {
 .cart-image {
   flex: 1 1;
 }
+
 .cart-name {
   flex: 8 1;
 }
+
 .cart-price {
   flex: 1 1;
   font-size: 2.5rem;
